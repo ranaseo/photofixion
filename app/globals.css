@@ -133,3 +133,13 @@ details[open] .faq-plus::after{transform:rotate(0)}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 .footer ul a,.panel ul a{text-decoration:underline;text-underline-offset:3px}
+.updated{margin-top:22px;font-size:14px;color:var(--muted)}
+.steps{padding:0;list-style:none}
+.steps-4{grid-template-columns:repeat(4,1fr)}
+.steps-4 li{padding:26px}
+div.card{cursor:default}
+.answer .hero-cta{margin-top:26px}
+tbody th[scope=row]{width:220px;background:var(--mist)}
+.footer{margin-top:0}
+@media (max-width:960px){.steps-4{grid-template-columns:1fr 1fr}tbody th[scope=row]{width:150px}}
+@media (max-width:560px){.steps-4{grid-template-columns:1fr}}

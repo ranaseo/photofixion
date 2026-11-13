@@ -44,6 +44,19 @@ ${s.includes.map((i) => `- ${i}`).join("\n")}
 Best for:
 ${s.bestFor.map((i) => `- ${i}`).join("\n")}
 
+Types:
+${s.types.map((t) => `- ${t.name}: ${t.desc}`).join("\n")}
+
+How it works:
+${s.steps.map((st, i) => `${i + 1}. ${st.name}: ${st.text}`).join("\n")}
+
+Method: ${s.method}
+File formats: ${s.formats}
+Price depends on: ${s.priceFactors.join("; ")}
+
+### ${s.versus.q}
+${s.versus.a}
+
 ${s.faqs.map((f) => `### ${f.q}\n${f.a}`).join("\n\n")}`).join("\n\n");
   return `# ${site.name}: full content
 
