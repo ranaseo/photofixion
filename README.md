@@ -14,7 +14,7 @@ npm run build && npm start
 ## SEO / AEO / AIO built in
 - SEO: per-page title, description, canonical, Open Graph, `sitemap.xml`, `robots.txt`, web manifest, static HTML for every page, one H1 per page, internal links between services
 - AEO: question-style headings with the direct answer first, FAQ sections (FAQPage schema), HowTo schema, turnaround table
-- AIO: Organization / WebSite / ProfessionalService / Service / BreadcrumbList JSON-LD, AI crawlers allowed in `robots.txt`, `public/llms.txt`
+- AIO: Organization / WebSite / ProfessionalService / Service / BreadcrumbList JSON-LD, AI crawlers allowed in `robots.txt`, `/llms.txt` and `/llms-full.txt` (generated from `lib/` data)
 
 ## Before launch
 1. Add social profile URLs in `lib/site.ts`.

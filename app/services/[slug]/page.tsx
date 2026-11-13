@@ -34,6 +34,7 @@ export default async function ServicePage({ params }: Props) {
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
+      { "@type": "WebPage", "@id": url, url, name: `${s.name} Service`, description: s.answer, dateModified: site.lastUpdated, isPartOf: { "@id": `${site.url}/#website` }, about: { "@id": `${url}#service` } },
       { "@type": "Service", "@id": `${url}#service`, name: `${s.name} Service`, serviceType: s.name, description: s.answer, url, provider: { "@id": `${site.url}/#organization` }, areaServed: "Worldwide" },
       { "@type": "BreadcrumbList", itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: site.url },

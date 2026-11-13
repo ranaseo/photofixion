@@ -13,6 +13,8 @@ export const site = {
   foundedYears: 10,
   teamSize: "50+",
   turnaround: { standard: "24 hours", fast: "12 hours", rush: "6 hours" },
+  /** Date the site content was last changed (YYYY-MM-DD). Update it when you edit copy: it feeds sitemap lastmod and schema dateModified. */
+  lastUpdated: "2026-11-13",
   social: [] as string[], // add full profile URLs: they feed the Organization schema (sameAs)
 };
 
