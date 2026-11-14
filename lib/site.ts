@@ -2,7 +2,7 @@
 export const site = {
   name: "Photo Fixion",
   legalName: "Photo Fixion",
-  url: "https://photofixion.com",
+  url: "https://www.photofixion.com",
   tagline: "A Home of Speed, Skill & Savings",
   description:
     "Photo Fixion is a professional photo editing service for e-commerce brands, photographers and agencies: clipping path, background removal, retouching, ghost mannequin and colour correction, delivered in 24 hours.",
